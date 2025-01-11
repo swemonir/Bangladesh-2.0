@@ -1,0 +1,150 @@
+.Fira-Sans-normal {
+    font-family: "Fira Sans", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+
+
+*{
+    margin: 0px;
+}
+/* share style */
+.dark-1{
+   color: #0E0E0E;
+}
+.dark-1-50{
+    color: rgba(14, 14, 14, 0.5);
+}
+.dark-1-70{
+    color: rgba(14, 14, 14, 0.7);
+}
+.dark-1-80{
+    color: rgba(14, 14, 14, 0.8);
+}
+
+.color-primary{
+    color: #006A50;
+}
+.back-color{
+    color: #C6E4D6;
+}
+.color-white{
+    color: #ffffff;
+}
+.last-back-color{
+    color: #F5F5F5;
+}
+
+.all-body{
+    background-color: #F5F5F5;
+}
+nav{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    margin: 31px 160px;
+   
+}
+.nav-title{
+    font-family: "Fira Sans", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 32px;   
+}
+.signin{
+    font-family: "Fira Sans", serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 18px;
+    background-color: white;
+    border-radius: 8px;
+    border-color: #006A50;
+    padding: 15px 30px;
+    width: 120px;
+    height: 52px;
+}
+
+.hero-section{
+   background-color: #C6E4D6;
+   margin: 0px 160px 80px 160px;
+   padding: 80px 60px;
+   border-radius: 24px;
+
+}
+.banner-head{
+    display: flex;
+    justify-content: space-between;
+}
+.sub-head{
+    font-family: "Fira Sans", serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 24px;
+}
+.headline{
+    font-family: "Fira Sans", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 56px;
+    max-width: 622px;
+    margin: 16px 0px 24px 0px;
+}
+.hero-cta{
+    font-family: "Fira Sans", serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 18px;
+    background-color: #006A50;
+    border-radius: 8px;
+    border: none;
+    padding: 17px 34px;
+    width: 270px;
+    height: 56px;
+
+}
+.section-2{
+    margin: 0 160px;
+    font-family: "Fira Sans", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 40px;
+}
+/* start section-2 */
+.innovation{
+    padding: 24px;
+    background-color: #ffffff;
+    width: 302px;
+    height: 244px;
+    border-radius: 16px;
+    border: rgba(14, 14, 14, 0.15);
+    border-style: solid;
+    border-width: .5px;
+    
+}
+.icon-sec2{
+    height: 64px;
+    width: 64px;
+}
+.card-head{
+    font-family: "Fira Sans", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 24px;
+    margin-top: 24px;
+}
+.card-p{
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px; 
+    margin-top: 12px; 
+    line-height: 32px;
+}
+.sec2-card{
+    margin: 32px 160px;
+    display: flex;
+    justify-content: space-between;
+}
+
