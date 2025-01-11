@@ -147,4 +147,91 @@ nav{
     display: flex;
     justify-content: space-between;
 }
-
+.section-3{
+    margin: 80px 160px 0px 160px;
+    font-family: "Fira Sans", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 40px;
+}
+/* start section-3 */
+.sec-3-p{
+    margin: 24px 160px 32px 160px;
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 24px; 
+}
+.sec3-card{
+    margin: 32px 160px;
+    display: flex;
+    justify-content: space-between;
+}
+.icon-sec3{
+    height: 64px;
+    width: 64px;
+}
+.Digital-Transformation{
+    padding: 32px;
+    background-color: rgba(84, 144, 245, 0.2);
+    width: 410px;
+    height: 325px;
+    border-radius: 16px;
+    
+}
+.Green-Energy{
+    padding: 32px;
+    background-color: rgba(198, 228, 214, 1);
+    width: 410px;
+    height: 325px;
+    border-radius: 16px;
+ 
+}
+.Modern-Infrastructure{
+    padding: 32px;
+    background-color: rgba(247, 235, 207, 1);
+    width: 410px;
+    height: 325px;
+    border-radius: 16px;
+     
+}
+.green-cta{
+    font-family: "Fira Sans", serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 16px;
+    background-color: rgba(9, 161, 92, 1);
+    border-radius: 8px;
+    border: none;
+    padding: 11px 20px;
+    width: 122px;
+    height: 41px;
+    margin-top: 64px;
+}
+.modern-cta{
+    font-family: "Fira Sans", serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 16px;
+    background-color: rgba(255, 194, 57, 1);
+    border-radius: 8px;
+    border: none;
+    padding: 11px 20px;
+    width: 122px;
+    height: 41px;
+    margin-top: 64px;
+}
+.digital-cta{
+    font-family: "Fira Sans", serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 16px;
+    background-color: rgba(84, 144, 245, 1);
+    border-radius: 8px;
+    border: none;
+    padding: 11px 20px;
+    width: 122px;
+    height: 41px;
+    margin-top: 64px;
+}
