@@ -111,8 +111,14 @@ nav{
     padding: 17px 34px;
     width: 270px;
     height: 56px;
-
+    cursor: pointer;
+    text-align: center;
+    transition-duration: 0.4s;  
 }
+.hero-cta:hover {
+    background-color: #003f28;
+    color: white;
+  }
 .section-2{
     margin: 0 160px;
     font-family: "Fira Sans", serif;
