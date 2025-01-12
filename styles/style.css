@@ -63,7 +63,17 @@ nav{
     padding: 15px 30px;
     width: 120px;
     height: 52px;
+    cursor: pointer;
+    text-align: center;
+    transition-duration: 0.4s;
+  
+
 }
+
+.signin:hover {
+    background-color: #04AA6D;
+    color: white;
+  }
 
 .hero-section{
    background-color: #C6E4D6;
@@ -207,7 +217,18 @@ nav{
     width: 122px;
     height: 41px;
     margin-top: 64px;
+    cursor: pointer;
+    text-align: center;
+    transition-duration: 0.4s;  
 }
+.green-cta:hover {
+    background-color: #0c6947;
+    color: white;
+  }
+
+
+
+
 .modern-cta{
     font-family: "Fira Sans", serif;
     font-weight: 600;
@@ -220,7 +241,15 @@ nav{
     width: 122px;
     height: 41px;
     margin-top: 64px;
+    cursor: pointer;
+    text-align: center;
+    transition-duration: 0.4s;  
 }
+.modern-cta:hover {
+    background-color: rgb(202, 146, 13);
+    color: white;
+  }
+
 .digital-cta{
     font-family: "Fira Sans", serif;
     font-weight: 600;
@@ -233,7 +262,16 @@ nav{
     width: 122px;
     height: 41px;
     margin-top: 64px;
+    cursor: pointer;
+    text-align: center;
+    transition-duration: 0.4s;  
 }
+.digital-cta:hover {
+    background-color: rgb(17, 79, 187);
+    color: white;
+  }
+
+
 
 .quotes-p{
     padding: 48px 24px;
@@ -357,8 +395,16 @@ nav{
     padding: 13px 26px;
     width: 139px;
     height: 48px;
-    margin-top: 64px;  
+    margin-top: 64px;
+    cursor: pointer;
+    text-align: center;
+    transition-duration: 0.4s;  
 }
+.Read-More:hover {
+    background-color: #04AA6D;
+    color: white;
+  }
+
 .news-head{
     font-weight: 700;
     font-style: normal;
@@ -403,4 +449,223 @@ nav{
     font-size: 16px;
     line-height: 24px;
     text-align: center; 
+}
+
+.tk-select{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 48px;
+}
+.btn-1{
+    padding: 40px;
+    font-size: 40px;
+    font-weight: 700;
+    font-style: normal;
+    background-color: white;
+    border-radius: 16px;
+    border-color: rgba(14, 14, 14, 0.15);
+    width: 280px;
+    height: 128px;
+    margin-right: 32px;
+    cursor: pointer;
+    text-align: center;
+    transition-duration: 0.4s;
+
+}
+.btn-2{
+    padding: 40px;
+    font-size: 40px;
+    font-weight: 700;
+    font-style: normal;
+    background-color: #C6E4D6;
+    border-radius: 16px;
+    border-color: rgba(14, 14, 14, 0.15);
+    width: 280px;
+    height: 128px;
+    margin-right: 32px;
+    cursor: pointer;
+    text-align: center;
+    transition-duration: 0.4s;
+  
+
+}
+
+.btn-2:hover {
+    background-color: #04AA6D;
+    color: white;
+  }
+  .btn-1:hover {
+    background-color: #04AA6D;
+    color: white;
+  }
+
+.input-amount{
+    width: 1032px;
+    height: 64px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: rgba(14, 14, 14, 0.15);
+    text-align: center;
+    width: 60%;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    margin: 32px;
+
+    
+}
+
+.amount-input::placeholder {
+    color: rgba(14, 14, 14, 0.3);
+  }
+.input-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.donate-button-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.donate-button{
+    font-family: "Fira Sans", serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 18px;
+    background-color: #006A50;
+    border-radius: 8px;
+    border: none;
+    padding: 13px 26px;
+    width: 151px;
+    height: 56px;
+    cursor: pointer;
+    text-align: center;
+    transition-duration: 0.4s; 
+    justify-content: center;
+    position: absolute;
+    margin-top: 32px;
+
+}
+.donate-button:hover {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+/* newsletter section */
+
+.section-7{
+    margin: 60px 165px 16px 165px;
+    font-family: "Fira Sans", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 40px;
+    text-align: center;
+}
+
+
+.sec-7-P{
+    margin: 12px 0px 32px 0px;
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center; 
+}
+
+  .newsletter-background{
+    padding: 48px;
+    background-color: #C6E4D6;
+    width: 1430px;
+    height: 395px;
+    border-radius: 24px;
+    margin: 140px 160px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    
+}
+.news-content{
+    width: 730px;
+    height: 250px;
+}
+
+
+.subscribe-container {
+    display: flex;
+    background-color: #ffffff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .email-input {
+    flex: 1;
+    border: none;
+    padding: 18px 40px;
+    font-size: 16px;
+    outline: none;
+    color: rgba(14, 14, 14, 0.8);
+    border-radius: 8px 0px 0px 8px;
+  }
+  
+  .email-input::placeholder {
+    color: rgba(14, 14, 14, 0.3);
+  }
+  
+  .subscribe-button {
+    background-color: #005f3c;
+    color: #ffffff;
+    border: none;
+    padding: 18px 40px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-radius: 0px 8px 8px 0px;
+  }
+  
+  .subscribe-button:hover {
+    background-color: #003f28;
+  }
+
+/* footer */
+.footer{
+    width: 100%px;
+    height: 226px;
+    background-color: white;
+}
+.space50{
+    width: 100%;
+    height: 50px;
+}
+
+  .section-8{
+    font-family: "Fira Sans", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 32px;
+    text-align: center;
+}
+
+
+.social-icon{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 32px;
+}
+.fb{
+    margin-right: 24px;
+}
+.ins{
+    margin-right: 24px;
+}
+hr{
+    margin-top: 32px;
+    border-color: rgba(14, 14, 14, 0.1);
 }
